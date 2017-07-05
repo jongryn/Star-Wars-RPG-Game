@@ -2,6 +2,7 @@
 // Created: July 4, 2017 5:55 AM
 // Author: Jonathan Gryn
 // Revisions: Jon (7/4/17) - Added JS
+//            Jon (7/5/17) - Trying to figure out why the characters aren't working
 */
 
 //Overall game is stored in object
@@ -239,7 +240,7 @@ $(document).ready(function() {
   		gameObj.yourCharacter = gameObj.characterArrayList.splice(charIndex, 1)[0];
 
   		// Setting initial attack power to the value within the master object
-  		gameObj.yourCurrentAttackPower = gameObj.yourCharacher.attackPower;
+  		gameObj.yourCurrentAttackPower = gameObj.yourCharacter.attackPower;
   	}
 
   	// This renders and updates all of the HTML elements
@@ -359,53 +360,11 @@ $(document).ready(function() {
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 4. add the 'No enemy here' text when attack button is clicked
 // 6. figure out how to implement the  'wounded' piece
 // -Look at changing the font to more readable
 // Add bootstrap class to change the hover state of characters
 // makeimg bigger to strecth entire character and make text white
-
-
-
-
 
 // Improvements to make
 // Update the images to not show the background colors and spread across entire div
