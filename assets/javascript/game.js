@@ -137,11 +137,11 @@ $(document).ready(function() {
     var $jediText = $('#attackText');
 
     // Using underscore.js to create templates that are dynamically updated
-    var $charTemplate = _.template($('#characterTmpl').html());
-    var $attackTemplate = _.template($('#attackTmpl').html());
-    var $winTemplate = _.template($('#winTmpl').html());
-    var $lossTemplate = _.template($('#lossTmpl').html());
-    var $jediTemplate = _.template($('#jediTmpl').html());
+    // var $charTemplate = _.template($('#characterTmpl').html());
+    // var $attackTemplate = _.template($('#attackTmpl').html());
+    // var $winTemplate = _.template($('#winTmpl').html());
+    // var $lossTemplate = _.template($('#lossTmpl').html());
+    // var $jediTemplate = _.template($('#jediTmpl').html());
     // var $soundTemplate =
 
     // Haven't selected Character
@@ -222,7 +222,7 @@ $(document).ready(function() {
 }
 
 // STAGE 2: Selecting your character
-  $('#characterList').on('click', '.characterContainer', function(e) {
+  $('.characterContainer').on('click', /*'.characterContainer',*/ function(e) {
 
   	// Pause current audio to allow for battle sounds
   	audioElement.pause();
