@@ -6,11 +6,11 @@
 */
 
 body {
-  background: url('../images/background_opacity0.1.jpg') no-repeat center center fixed;
+  background: url('https://github.com/jongryn/Star-Wars-RPG-Game/blob/master/assets/images/background_opacity0.1.jpg?raw=true') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;  
+    -o-background-size: cover;
 }
 
 .jumbotron {
@@ -21,12 +21,12 @@ body {
 
 .jumbotron h1 {
   font-size: 4em;
-    color: #0c1a63;
+    color: bg-black;
 }
 
 .jumbotron h2 {
   font-size: 2em;
-    color: #1a34b8;
+    color: bg-black;
 }
 
 .character-image {
@@ -36,7 +36,8 @@ body {
   margin: 0px 2px 0px 2px;
   background-color: white;
   border: solid;
-  border-color: green;
+  border-color: black;
+  opacity: 0.75;
 }
 
 .character-image p {
@@ -50,28 +51,28 @@ body {
 
 #chosen-character h2 {
   font-size: 2em;
-    color: #485bf0;
+    color: red;
 }
 
 .chosen-character {
-  border-color: #dd48f0;
-  background-color: #5bf048;
+  border-color: red;
+  background-color: yellow;
 }
 
 #enemies-available h2 {
   font-size: 2em;
-    color: #8948f0;
+    color: white;
 }
 
 .enemy-character {
-  border-color: #48f0dd;
-  background-color: #f0485b;
+  border-color: black;
+  background-color: white;
   margin: 0px 2px 0px 2px;
 }
 
 #fight-section h2 {
   font-size: 2em;
-    color: #f0485b;
+    color: yellow;
 }
 
 #defender-section {
@@ -80,12 +81,12 @@ body {
 
 #defender-section h2 {
   font-size: 2em;
-    color: #f0485b;
+    color: green;
 }
 
 .defender-character {
-  border-color: #485bf0;
-  background-color: #f0dd48;
+  border-color: green;
+  background-color: yellow;
 }
 
 #game-message {
@@ -184,7 +185,7 @@ img {
   font-size: 25px;
 }
 #characterList {
-  
+
 },
 #enemyList {
 
